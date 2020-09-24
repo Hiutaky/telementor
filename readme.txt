@@ -26,8 +26,6 @@ It's fully compatible with Elementor Form.
  
 Manual Install
  
-e.g.
- 
 1. Upload `telementor.zip` to the `/wp-content/plugins/` directory
 2. Extract 'telementor.zip' into the plugins directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
@@ -41,10 +39,6 @@ You need:
 1. A Telegram BOT + Access Token
 2. The Reciver ID ( 1923812381 ) or Username ( @username )
 3. A message to send
- 
-= What about foo bar? =
- 
-Answer to foo bar dilemma.
  
 == Screenshots ==
  
