@@ -3,7 +3,7 @@ Contributors: hiutaky
 Donate link: https://alessandordecristofaro.it
 Tags: elementor, telegram, element, elemento, telementor
 Requires at least: 5.1
-Tested up to: 5.5.1
+Tested up to: 5.6
 Requires PHP: 7.0
 Stable tag: 4.3
 License: GPLv2 or later
@@ -37,7 +37,7 @@ Manual Install
  
 You need:
 1. A Telegram BOT + Access Token
-2. The Reciver ID ( 1923812381 ) or Username ( @username )
+2. The Reciver ID ( 1923812381 ) or the Channel / Group Tag
 3. A message to send
  
 == Screenshots ==
@@ -50,3 +50,7 @@ You need:
 = 1.0.1 =
 * First Stable Release of Telementor
 * Integrate /SendMessage Telegram Endpoint
+
+= 1.0.2 =
+* Minor fixes
+* Stability Test on WordPress 5.6

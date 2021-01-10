@@ -29,7 +29,7 @@ class Telegram_Action extends \ElementorPro\Modules\Forms\Classes\Action_Base {
 	 * @return string
 	 */
 	public function get_label() {
-		return __( 'Telegram SendMessage', 'telementor' );
+		return __( 'Telementor Send Message', 'telementor' );
 	}
 
 	/**
@@ -57,9 +57,9 @@ class Telegram_Action extends \ElementorPro\Modules\Forms\Classes\Action_Base {
 		}
 		$message = str_replace('/', '', $message);
 
-        if( $settings['tg_sendTo'] == '' || $settings['tg_access_token'] == ''  || $message == '' ){
-            $ajax_handler->add_error_message('Telementor Form Settings is not setup correrctly. Please insert all the Information or Contact the Webmaster.');
-        }
+        if( $settings['tg_sendTo'] == '' || $settings['tg_access_token'] == ''  || $message == '' )
+            $ajax_handler->add_error_message('Telementor Form Settings are not setup correrctly. Please insert all the Informations or Contact the Webmaster.');
+        
 
         $api_data = [
             'chat_id' => $settings['tg_sendTo'],
@@ -100,13 +100,12 @@ class Telegram_Action extends \ElementorPro\Modules\Forms\Classes\Action_Base {
 		$widget->start_controls_section(
 			'telementor_section',
 			[
-				'label' => __( 'Telegram SendMessage', 'telementor' ),
+				'label' => __( 'Telementor Send Message', 'telementor' ),
 				'condition' => [
 					'submit_actions' => $this->get_name(),
 				],
 			]
 		);
-
 
 		$widget->add_control(
 			'tg_access_token',

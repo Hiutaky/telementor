@@ -9,7 +9,7 @@
  * Plugin Name:       Telementor | Telegram for Elementor Form
  * Plugin URI:        https://alessandrodecristofaro.it/telementor
  * Description:       Easy and Fast Telegram Integration for Elementor Form.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Alessandro De Cristofaro
  * Plugin URI:        https://alessandrodecristofaro.it/?ref=telementor-wp-admin
  * License:           GPL-2.0+
